@@ -4,7 +4,7 @@ This is a simple web application that allows users to generate and explore a col
 
 # DEPLOYED VERSION 
 
-<a href = "https://admin-dashboard-panel-neon.vercel.app" target = "_blank">Click here to checkout the deployed version of <b><u> Quotes Generator </b></u></a>
+<a href = "https://quotes-generator-omega-nine.vercel.app" target = "_blank">Click here to checkout the deployed version of <b><u> Quotes Generator </b></u></a>
 
 
 <b> Website Preview </b> 

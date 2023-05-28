@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9fbe2;
+  color: white;
+  font-family: "Mulish", sans-serif;
+  background: url("assets/neon.jpg") no-repeat;
+  background-size: 1600px 800px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#quotecontainer {
+  min-width: 40vw;
+  box-sizing: border-box;
+  /* border:0.5px solid #b1b1b1; */
+  box-shadow: 3px 3px 6px -2px #7e7e7ebf;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #8cdee0;
+  position: relative;
+  background: url("assets/windmills.jpg") no-repeat;
+  background-size: 620px 480px;
+  opacity: 0.85;
+}
+
+.quoteheading {
+  color: black;
+  text-align: center;
+  font-size: 4vh;
+  margin: 2vw;
+  padding: 1vw;
+}
+
+.quote_block {
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1vw;
+  margin: 2vw;
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+}
+
+#copy-btn {
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  transform: translate(-50%, 50%);
+  height: 5vh;
+  width: 5vh;
+}
+
+.circle-button {
+  border-radius: 50%;
+  color: rgb(68, 68, 68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: white;
+}
+
+.quote_area {
+  font-size: 2.5vh;
+  color: rgba(13, 14, 15, 0.937);
+  border: 2px solid black;
+  margin: 1vw 0 1vw 0;
+  border-radius: 10px;
+  padding: 1vw 3vw 1vw 3vw;
+  font-size: 1em;
+}
+
+.author {
+  font-size: 2vh;
+  color: rgb(41, 53, 62);
+}
+
+
+button:hover {
+  box-shadow: 3px 3px 6px -2px #7e7e7ebf;
+}
+
+.card-title {
+  color: black;
+}
+
+.para {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: auto;
+  height: 43px;
+  padding: 17px 5px;
+  font-size: 23px;
+}
+
+.downheading {
+  text-align: end;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.buttonbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonbox ul {
+  width: 50%;
+  display: flex;
+  margin: 10px;
+}
+#btn {
+  margin-top: 18px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(52, 100, 121);
+  box-shadow: inset 0 0 0 0 rgb(66, 80, 86);
+  transition: ease-out 0.4s;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  -ms-transition: ease-out 0.4s;
+  -o-transition: ease-out 0.4s;
+}
+
+#btn:hover {
+  border: 2px solid rgb(16, 22, 26);
+  background-color: #fff;
+  color: rgb(5, 6, 6);
+}
+
+#btn {
+  background-color: rgba(129, 135, 138, 0.7);
+  border: 2px solid #fff;
+  border-radius: 1000px;
+  text-align: center;
+  color: white;
+  padding: 1vw;
+  margin: 1vw 2vw 2vw 2vw;
+  font-size: 2vh;
+  width: 200px;
+  font-weight: 600;
+}
+
+#btn:hover,
+.twitter-btn:hover,
+.circle-button:hover {
+  cursor: pointer;
+}
+.circle-button {
+  border: 2px solid rgb(16, 18, 23);
+}
+.circle-button:hover {
+  background-color: rgba(135, 147, 151);
+  box-shadow: inset 0 0 0 0 rgb(11, 67, 79);
+  transition: ease-out 0.4s;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  -ms-transition: ease-out 0.4s;
+  -o-transition: ease-out 0.4s;
+  color: rgb(114, 120, 123);
+}
+.twitter-btn:hover {
+  background-color: rgb(0, 172, 238);
+  box-shadow: inset 0 0 0 0 rgb(11, 67, 79);
+  transition: ease-out 0.4s;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  -ms-transition: ease-out 0.4s;
+  -o-transition: ease-out 0.4s;
+  color: white;
+}
+.twitter-btn {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  height: 8vh;
+  width: 8vh;
+  color: rgb(0, 172, 238);
+  font-size: 2.5vh;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgb(13, 13, 17);
+}
+a {
+  text-decoration: none;
+}
+.twitter-btn,
+circle-button {
+  border: none;
+}
+
+/* animation sections  */
+
+.animate {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
